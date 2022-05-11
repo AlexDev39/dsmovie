@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-  --color-primary: #4D41C0;
+  --color-primary: #7900d6;
 }
 
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    
+}
+.col-sm-6:hover{
+  
+  transform:scale(1.05, 1.05);
 }
 
 html, body {
-    background-color: #E5E5E5;
+    background-color: #0f0518;
 }
 
 a, a:hover {
