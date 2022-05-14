@@ -13,7 +13,7 @@ public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private String emai;
+	private String email;
 	
 	public User() {
 		
@@ -21,7 +21,7 @@ public class User {
 	
 	public User(Long id, String email) {
 		this.id = id;
-		this.emai = email;
+		this.email = email;
 	}
 
 	public Long getId() {
@@ -32,12 +32,12 @@ public class User {
 		this.id = id;
 	}
 
-	public String getEmai() {
-		return emai;
+	public String getEmail() {
+		return email;
 	}
 
-	public void setEmai(String emai) {
-		this.emai = emai;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	
 	
